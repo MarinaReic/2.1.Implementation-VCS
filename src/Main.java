@@ -4,5 +4,8 @@ public class Main {
         SalesManager january2022 = new SalesManager(salesJan2022);
         int bestJan2022 = january2022.max();
         System.out.println("Лучший результат продаж в январе 2022 - " + bestJan2022 + " штук за один день!");
+
+        int averageJan2022 = january2022.average();
+        System.out.println("Обрезанное среднее количество продаж в январе 2022 составило " + averageJan2022);
     }
 }
